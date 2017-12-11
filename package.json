@@ -1,0 +1,25 @@
+{
+  "name": "michaeldanilov",
+  "version": "1.0.0",
+  "description": "Get information about Michael Danilov",
+  "homepage": "https://github.com/MichaelDanilov/node-michaeldanilov",
+  "scripts": {
+    "lint": "npm run lint:js && npm run spellcheck",
+    "lint:js": "./node_modules/.bin/eslint *.js */*.js",
+    "spellcheck": "./node_modules/.bin/yaspeller *.md",
+    "test": "./node_modules/.bin/ava"
+  },
+  "author": {
+    "name": "Michael Danilov",
+    "email": "michael@danilov.me",
+    "url": "https://danilov.me/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "yaspeller": "^4.0.3"
+  }
+}
