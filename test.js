@@ -1,5 +1,5 @@
 import test from 'ava';
-import michaeldanilov from './';
+import michaeldanilov from '.';
 
 // English
 test('name', (t) => {
