@@ -16,10 +16,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "ava": "0.25.0",
-    "eslint": "5.10.0",
+    "ava": "1.2.0",
+    "eslint": "5.12.1",
     "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-import": "2.15.0",
     "yaspeller": "5.0.1"
   },
   "main": "index.d.ts",
