@@ -1,6 +1,6 @@
 {
   "name": "michaeldanilov",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get information about Michael Danilov",
   "homepage": "https://github.com/MichaelDanilov/node-michaeldanilov",
   "scripts": {
@@ -21,5 +21,7 @@
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14.0",
     "yaspeller": "5.0.1"
-  }
+  },
+  "main": "index.d.ts",
+  "types": "index.d.ts"
 }
