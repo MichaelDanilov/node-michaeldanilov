@@ -1,6 +1,6 @@
 {
   "name": "michaeldanilov",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get information about Michael Danilov",
   "homepage": "https://github.com/MichaelDanilov/node-michaeldanilov",
   "scripts": {
@@ -16,12 +16,12 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "ava": "1.2.0",
-    "eslint": "5.12.1",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "2.15.0",
-    "yaspeller": "5.0.1"
+    "ava": "2.2.0",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.2.0",
+    "eslint-plugin-import": "2.18.2",
+    "yaspeller": "6.0.0"
   },
-  "main": "index.d.ts",
+  "main": "index.js",
   "types": "index.d.ts"
 }
