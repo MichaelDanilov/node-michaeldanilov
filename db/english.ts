@@ -1,10 +1,14 @@
-const names = {
+import { Names, Info } from '../types';
+
+const names: Names = {
   firstName: 'Michael',
   lastName: 'Danilov',
 };
 
-export default {
+const info: Info = {
   names,
   name: `${names.firstName} ${names.lastName}`,
   location: 'Omsk, Russia',
 };
+
+export default info;
