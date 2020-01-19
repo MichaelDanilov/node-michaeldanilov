@@ -1,9 +1,12 @@
 import { common, english, russian } from './db';
+import { FullInfo } from './types';
 
-export default {
-  name: english.name,
-  names: english.names,
-  location: english.location,
+export * from './types';
+
+const fullInfo: FullInfo = {
+  ...english,
   homepage: common.homepage,
   ru: russian,
 };
+
+export default fullInfo;
