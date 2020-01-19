@@ -17,7 +17,7 @@ test('en lastName', t => {
 });
 
 test('en location', t => {
-  t.is(michaeldanilov.location, 'Omsk, Russia');
+  t.is(michaeldanilov.location, 'Moscow, Russia');
 });
 
 // Russian
@@ -34,7 +34,7 @@ test('ru lastName', t => {
 });
 
 test('ru location', t => {
-  t.is(michaeldanilov.ru.location, 'Омск, Россия');
+  t.is(michaeldanilov.ru.location, 'Москва, Россия');
 });
 
 // Common

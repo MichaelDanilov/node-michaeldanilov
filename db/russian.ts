@@ -8,7 +8,7 @@ const names: Names = {
 const info: Info = {
   names,
   name: `${names.firstName} ${names.lastName}`,
-  location: 'Омск, Россия',
+  location: 'Москва, Россия',
 };
 
 export default info;
