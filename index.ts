@@ -4,9 +4,7 @@ import { FullInfo } from './types';
 export * from './types';
 
 const fullInfo: FullInfo = {
-  name: english.name,
-  names: english.names,
-  location: english.location,
+  ...english,
   homepage: common.homepage,
   ru: russian,
 };

@@ -13,4 +13,16 @@ export interface Info {
   name: string;
   location: string;
   cv: CV;
+  jobTitle: string;
+  worksFor: {
+    brand: {
+      name: string;
+      url: string;
+    };
+    department: {
+      name: string;
+    };
+    name: string;
+    url: string;
+  };
 }
