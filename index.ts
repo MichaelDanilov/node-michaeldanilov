@@ -1,6 +1,6 @@
-const { common, english, russian } = require('./db');
+import { common, english, russian } from './db';
 
-module.exports = {
+export default {
   name: english.name,
   names: english.names,
   location: english.location,

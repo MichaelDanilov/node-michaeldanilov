@@ -3,7 +3,7 @@ const names = {
   lastName: 'Данилов',
 };
 
-module.exports = {
+export default {
   names,
   name: `${names.firstName} ${names.lastName}`,
   location: 'Омск, Россия',
